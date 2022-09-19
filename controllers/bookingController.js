@@ -40,5 +40,5 @@ exports.confirmPayment = catchAsync(async (req, res) => {
   }
 
   // redirect back to your own frontend
-  res.redirect('http://127.0.0.1:3000/');
+  res.redirect('/');
 });
