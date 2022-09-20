@@ -11293,7 +11293,7 @@ var signup = /*#__PURE__*/function () {
             if (res.data.status === 'success') {
               (0, _alerts.showAlert)('success', 'Signed up successfully!');
               window.setTimeout(function () {
-                location.assign('/');
+                location.assign('/login');
               }, 1500);
             }
 
@@ -11853,7 +11853,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60290" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63750" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
